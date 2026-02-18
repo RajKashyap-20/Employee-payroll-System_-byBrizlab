@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Add Employee</title>
-    <link rel="stylesheet" href="/style.css">
+<title>Add Employee</title>
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
-<h2>Add Employee</h2>
+<div class="container">
+
+<h1>Add Employee</h1>
 
 <form action="/add" method="POST">
-    <input type="text" name="name" placeholder="Name" required>
-    <input type="text" name="department" placeholder="Department" required>
-    <input type="number" name="salary" placeholder="Salary" required>
-    <button type="submit">Add</button>
+
+<input type="text" name="name" placeholder="Employee Name" required>
+
+<input type="number" name="salary" placeholder="Salary" required>
+
+<button class="btn submit-btn">Add Employee</button>
+
 </form>
 
-<a href="/">Back</a>
+</div>
 
 </body>
 </html>
